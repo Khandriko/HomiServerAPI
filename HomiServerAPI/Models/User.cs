@@ -3,7 +3,9 @@
     public class User
     {
         public int Id { get; set; }
-        public string Username { get; set; }
-        public string PasswordHash { get; set; } // Хранить хеш пароля
+
+        // Сделать свойство required
+        public required string Username { get; set; }
+        public required string PasswordHash { get; set; }
     }
 }
