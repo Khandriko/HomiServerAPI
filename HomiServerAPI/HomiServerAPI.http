@@ -1,0 +1,6 @@
+@HomiServerAPI_HostAddress = http://localhost:5047
+
+GET {{HomiServerAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
